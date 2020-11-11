@@ -23,6 +23,14 @@ const routes: Routes = [
     path: 'students3',
     loadChildren: () => import('./week8/students3/students3.module').then( m => m.Students3PageModule)
   },
+  {
+    path: 'index',
+    loadChildren: () => import('./week9/index/index.module').then( m => m.IndexPageModule)
+  },
+  {
+    path: 'insert',
+    loadChildren: () => import('./week9/insert/insert.module').then( m => m.InsertPageModule)
+  },
 ];
 
 @NgModule({
