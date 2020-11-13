@@ -31,6 +31,18 @@ const routes: Routes = [
     path: 'insert',
     loadChildren: () => import('./week9/insert/insert.module').then( m => m.InsertPageModule)
   },
+  {
+    path: 'index',
+    loadChildren: () => import('./week10/index/index.module').then( m => m.IndexPageModule)
+  },
+  {
+    path: 'create',
+    loadChildren: () => import('./week10/create/create.module').then( m => m.CreatePageModule)
+  },
+  {
+    path: 'edit',
+    loadChildren: () => import('./week10/edit/edit.module').then( m => m.EditPageModule)
+  },
 ];
 
 @NgModule({
