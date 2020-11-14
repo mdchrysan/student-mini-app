@@ -5,9 +5,21 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey:
+    apiKey: "AIzaSyBds9xaJxbH_UGZ59p0ooV4wHHwXDtlOYY",
+    authDomain: "student-mini-app.firebaseapp.com",
+    databaseURL: "https://student-mini-app.firebaseio.com",
+    projectId: "student-mini-app",
+    storageBucket: "student-mini-app.appspot.com",
+    messagingSenderId: "248723125943",
+    appId: "1:248723125943:web:db77258b680848f70aff32",
+    measurementId: "G-EP827PFH45"
   }
 };
+
+// Initialize Firebase
+//firebase.initializeApp(firebaseConfig);
+//firebase.analytics();
+
 
 /*
  * For easier debugging in development mode, you can import the following file

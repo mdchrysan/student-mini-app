@@ -11,12 +11,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { HttpClientModule } from '@angular/common/http';
 
+// Environment
+import { environment } from '../environments/environment';
+
 // Firebase
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
-
-// Environment
-import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
