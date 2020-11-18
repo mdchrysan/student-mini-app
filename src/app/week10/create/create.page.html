@@ -9,7 +9,7 @@
 
 <ion-content>
   <form #f="ngForm" (ngSubmit)="onSubmit(f)">
-    <ion-list>
+    <ion-list class="form-layout">
       <ion-item>
         <ion-label position="floating">NIM</ion-label>
         <ion-input type="text" ngModel name="nim"></ion-input>
@@ -23,6 +23,6 @@
         <ion-input type="text" ngModel name="prodi"></ion-input>
       </ion-item>
     </ion-list>
-    <ion-button type="submit" color="primary" expand="block">Simpan</ion-button>
+    <ion-button type="submit" color="primary" expand="block" class="form-layout">Simpan</ion-button>
   </form>
 </ion-content>
