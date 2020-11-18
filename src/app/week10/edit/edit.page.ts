@@ -43,10 +43,10 @@ export class EditPage implements OnInit {
 
     this.mhsSrv.update(this.key, form.value).then(res=>{
       console.log(res);
-      this.router.navigateByUrl('/index');
+      this.router.navigateByUrl('/week10/index-realtime');
     }).catch(error => console.log(error))
 
     form.reset();
-    this.router.navigateByUrl('/index');
+    this.router.navigateByUrl('/week10/index-realtime');
   }
 }

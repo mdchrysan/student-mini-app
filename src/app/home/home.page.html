@@ -6,22 +6,54 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="ion-padding" [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Type Your Path!</strong>
-    <p>/students1</p>
-    <p>/students2</p>
-    <p>/students3</p>
-    <p>/index-realtime</p>
-    <p>/index</p>
-    <p>/insert</p>
-    <p>/create</p>
-    <p>/edit</p>
+  <div class="header">
+    <strong>M E N U</strong>
+    <p>Click Your Path!</p>
+    <!-- <img src="/assets/icon/abc.png"/> -->
   </div>
+  <div class="button-container">
+    <ion-button 
+      color="primary"
+      expand="block"
+      shape="round"
+      routerLink="/students1">
+        Students 1
+    </ion-button>
+    <ion-button 
+      color="primary"
+      expand="block"
+      shape="round"
+      routerLink="/students2">
+        Students 2
+    </ion-button>
+    <ion-button 
+      color="primary"
+      expand="block"
+      shape="round"
+      routerLink="/students3">
+        Students 3 (rxjs)
+    </ion-button>
+    <ion-button 
+      color="primary"
+      expand="block"
+      shape="round"
+      routerLink="/index">
+        Index
+    </ion-button>
+    <ion-button 
+      color="primary"
+      expand="block"
+      shape="round"
+      routerLink="/index-realtime">
+        Index (RealtimeDB)
+    </ion-button>
+  </div>
+  
 </ion-content>
