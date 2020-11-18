@@ -40,7 +40,7 @@ const routes: Routes = [
     loadChildren: () => import('./week10/create/create.module').then( m => m.CreatePageModule)
   },
   {
-    path: 'edit',
+    path: 'edit/:key',
     loadChildren: () => import('./week10/edit/edit.module').then( m => m.EditPageModule)
   },
 ];
