@@ -32,7 +32,7 @@ const routes: Routes = [
     loadChildren: () => import('./week9/insert/insert.module').then( m => m.InsertPageModule)
   },
   {
-    path: 'index',
+    path: 'index-realtime',
     loadChildren: () => import('./week10/index/index.module').then( m => m.IndexPageModule)
   },
   {
