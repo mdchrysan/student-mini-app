@@ -57,6 +57,7 @@ export class RegisterPage implements OnInit {
   }
 
   goLoginPage(){
+    //back to login page
     this.navCtrl.navigateBack('');
   }
 }
