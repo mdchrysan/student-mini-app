@@ -48,10 +48,6 @@ const routes: Routes = [
     loadChildren: () => import('./week11/login/login.module').then( m => m.LoginPageModule)
   },
   {
-    path: 'login',
-    loadChildren: () => import('./week11/login/login.module').then( m => m.LoginPageModule)
-  },
-  {
     path: 'register',
     loadChildren: () => import('./week11/register/register.module').then( m => m.RegisterPageModule)
   },
