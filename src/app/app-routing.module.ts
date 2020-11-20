@@ -43,6 +43,22 @@ const routes: Routes = [
     path: 'edit/:key',
     loadChildren: () => import('./week10/edit/edit.module').then( m => m.EditPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./week11/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./week11/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./week11/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./week11/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
 ];
 
 @NgModule({
