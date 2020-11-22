@@ -1,10 +1,12 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Dashboard</ion-title>
+    <ion-title>
+      Dashboard
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-padding" [fullscreen]="true">
   <ion-grid>
     <ion-row>
       <ion-col text-center>
@@ -17,7 +19,6 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-</ion-content>
 
 <ion-footer (click)="logout()">
   <ion-toolbar color="secondary">
