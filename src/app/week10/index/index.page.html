@@ -12,7 +12,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-list class="form-layout">
+  <ion-list>
     <ion-item *ngFor="let student of mahasiswa">
       <ion-label>{{student.nim}} - {{student.nama}} - {{student.prodi}}</ion-label>
       <ion-button routerLink="/edit/{{student.key}}">EDIT</ion-button>

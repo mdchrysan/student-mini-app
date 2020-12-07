@@ -1,5 +1,4 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { truncate } from 'fs';
 
 declare var google: any;
 

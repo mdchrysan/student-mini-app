@@ -56,10 +56,6 @@ const routes: Routes = [
     loadChildren: () => import('./week11/dashboard/dashboard.module').then( m => m.DashboardPageModule)
   },
   {
-    path: 'display-map',
-    loadChildren: () => import('./display-map/display-map.module').then( m => m.DisplayMapPageModule)
-  },
-  {
     path: 'current-loc',
     loadChildren: () => import('./week12/current-loc/current-loc.module').then( m => m.CurrentLocPageModule)
   },
