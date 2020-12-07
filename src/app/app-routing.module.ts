@@ -67,6 +67,10 @@ const routes: Routes = [
     path: 'loc-coordinate',
     loadChildren: () => import('./week12/loc-coordinate/loc-coordinate.module').then( m => m.LocCoordinatePageModule)
   },
+  {
+    path: 'camera',
+    loadChildren: () => import('./week13/camera/camera.module').then( m => m.CameraPageModule)
+  },
 ];
 
 @NgModule({

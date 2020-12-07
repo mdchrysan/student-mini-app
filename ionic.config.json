@@ -1,5 +1,7 @@
 {
   "name": "studentMiniApp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
